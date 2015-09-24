@@ -1,0 +1,7 @@
+Jul 23, 2015 10:10:14 PM app main
+WARNING: Can cause ArrayIndexOutOfBoundsException
+Jul 23, 2015 10:10:16 PM app main
+SEVERE: Exception occur String Array
+java.lang.ArrayIndexOutOfBoundsException: 5
+	at app.main(app.java:47)
+

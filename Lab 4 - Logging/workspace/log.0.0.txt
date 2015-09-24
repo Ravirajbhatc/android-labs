@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-07-23T22:10:44</date>
+  <millis>1437669644976</millis>
+  <sequence>0</sequence>
+  <logger>confLogger</logger>
+  <level>FINE</level>
+  <class>config</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>At End of the Day we are learning JAVA logging</message>
+</record>
+<record>
+  <date>2015-07-23T22:10:45</date>
+  <millis>1437669645010</millis>
+  <sequence>1</sequence>
+  <logger>confLogger</logger>
+  <level>WARNING</level>
+  <class>config</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>JAVA program is running out of memory!</message>
+</record>
+</log>
