@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2015-07-23T22:10:44</date>
-  <millis>1437669644976</millis>
+  <date>2015-09-28T12:22:07</date>
+  <millis>1443423127610</millis>
   <sequence>0</sequence>
   <logger>confLogger</logger>
   <level>FINE</level>
@@ -13,8 +13,8 @@
   <message>At End of the Day we are learning JAVA logging</message>
 </record>
 <record>
-  <date>2015-07-23T22:10:45</date>
-  <millis>1437669645010</millis>
+  <date>2015-09-28T12:22:07</date>
+  <millis>1443423127655</millis>
   <sequence>1</sequence>
   <logger>confLogger</logger>
   <level>WARNING</level>

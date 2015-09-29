@@ -22,11 +22,9 @@ public class app implements Filter{
         fileHandler  = new FileHandler("./error.log");
         simpleFormatter = new SimpleFormatter();
         fileHandler.setFormatter(simpleFormatter);
-        LOGGER.setFilter(new app());
-        
-        
-        LOGGER.addHandler(fileHandler);
         fileHandler.setLevel(Level.ALL);
+        LOGGER.setFilter(new app());
+        LOGGER.addHandler(fileHandler);
             
         Scanner in = new Scanner(System.in);
         System.out.println(">>>>>>Welcome to online Office Portal<<<<<<<");
@@ -46,12 +44,13 @@ public class app implements Filter{
         try{ 
             System.out.println(option[a]);
         }catch(ArrayIndexOutOfBoundsException ex){
+            LOGGER.log(Level.INFO,"Exception occurs",ex);
             LOGGER.log(Level.SEVERE, "Exception occur String Array", ex);
         } 
           
   
     }
-     @Override 
+    @Override 
     public boolean isLoggable(LogRecord record) {
         if(record == null)
             return false; 

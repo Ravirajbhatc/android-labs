@@ -34,6 +34,7 @@ System.out.println("methods are: "+Arrays.toString(allmethod));
            // privateFields.add(field);
             System.out.println(field.toString());
         }
+
     }
 
 Method s = rental.getDeclaredMethod("hello", null);
